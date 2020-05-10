@@ -1,4 +1,3 @@
-<a href="https://docs.google.com/drawings/d/1zROz5TgqlxTYyUZmYpfboMwyyuLxX3HV0jR6tkByKzw/edit?usp=sharing"><img src="https://raw.githubusercontent.com/atulmy/atulmy.github.io/master/images/fullstack-javascript-architecture/architecture.png?v=1.0" alt="Full-Stack JavaScript Architecture" /></a>
 
 # Full-Stack JavaScript Architecture
 
@@ -115,7 +114,7 @@ A typical product (SaaS, etc.) usually consists of following services:
   - Android Studio (for Android) (latest)
   - Follow [React Native Guide](https://facebook.github.io/react-native/docs/getting-started) to setup your local machine
 
-- Clone repository `git clone git@github.com:atulmy/fullstack-javascript-architecture.git fullstack`
+- Clone repository `git clone git@github.com:prodev880110/fullstack-javascript-architecture.git fullstack`
 
 - **API**
 
@@ -123,7 +122,7 @@ A typical product (SaaS, etc.) usually consists of following services:
     - Authentication strategy: [JWT](https://jwt.io/introduction/) (JSON Web Token)
     - Current implementation uses [RPC](https://www.jsonrpc.org/) (Remote Procedure Call) for API endpoints (one endpoint URL, multiple operations) and can be easily replaced with REST.
     - Resources
-      - [Lightweight RPC API pattern](https://github.com/atulmy/wispy)
+      - [Lightweight RPC API pattern](https://github.com/prodev880110/wispy)
   - Switch to `api` directory `cd backend/api`
   - Configuration
     - Create local environment file `cp .env.dev.example .env.local`
@@ -184,7 +183,7 @@ A typical product (SaaS, etc.) usually consists of following services:
   - Deploy code
     1. Login to the server (SSH)
     2. Create a new directory on server: `mkdir /var/www/fullstack` and switch to the directory `cd /var/www/fullstack`
-    3. Clone repository `git clone git@github.com:atulmy/fullstack-javascript-architecture.git .`
+    3. Clone repository `git clone git@github.com:prodev880110/fullstack-javascript-architecture.git .`
     4. Switch to `deployment` directory `cd deployment`
     5. Build containers `docker-compose up --build -d`
        - `up` = Builds, (re)creates, starts, and attaches to containers for a service.
@@ -226,7 +225,6 @@ A typical product (SaaS, etc.) usually consists of following services:
 
 ## Screenshots
 
-View all screenshots [here](https://github.com/atulmy/atulmy.github.io/tree/master/images/fullstack-javascript-architecture).
 
 <table>
   <tbody>
@@ -235,10 +233,10 @@ View all screenshots [here](https://github.com/atulmy/atulmy.github.io/tree/mast
     </tr>
     <tr>
       <td>
-        <img alt="Landing" src="https://raw.githubusercontent.com/atulmy/atulmy.github.io/master/images/fullstack-javascript-architecture/landing/Screenshot%202018-11-26%20at%208.42.33%20PM.png" />
+        <img alt="Landing" src="https://raw.githubusercontent.com/prodev880110/prodev880110.github.io/master/images/fullstack-javascript-architecture/landing/Screenshot%202018-11-26%20at%208.42.33%20PM.png" />
       </td>
       <td>
-        <img alt="Landing" src="https://raw.githubusercontent.com/atulmy/atulmy.github.io/master/images/fullstack-javascript-architecture/landing/Screenshot%202018-11-26%20at%208.42.44%20PM.png" />
+        <img alt="Landing" src="https://raw.githubusercontent.com/prodev880110/prodev880110.github.io/master/images/fullstack-javascript-architecture/landing/Screenshot%202018-11-26%20at%208.42.44%20PM.png" />
       </td>
     </tr>
     <tr>
@@ -246,10 +244,10 @@ View all screenshots [here](https://github.com/atulmy/atulmy.github.io/tree/mast
     </tr>
     <tr>
       <td>
-        <img alt="Web" src="https://raw.githubusercontent.com/atulmy/atulmy.github.io/master/images/fullstack-javascript-architecture/web/Screenshot%202018-11-26%20at%208.43.29%20PM.png" />
+        <img alt="Web" src="https://raw.githubusercontent.com/prodev880110/prodev880110.github.io/master/images/fullstack-javascript-architecture/web/Screenshot%202018-11-26%20at%208.43.29%20PM.png" />
       </td>
       <td>
-        <img alt="Web" src="https://raw.githubusercontent.com/atulmy/atulmy.github.io/master/images/fullstack-javascript-architecture/web/Screenshot%202018-11-26%20at%208.44.25%20PM.png" />
+        <img alt="Web" src="https://raw.githubusercontent.com/prodev880110/prodev880110.github.io/master/images/fullstack-javascript-architecture/web/Screenshot%202018-11-26%20at%208.44.25%20PM.png" />
       </td>
     </tr>
     <tr>
@@ -257,10 +255,10 @@ View all screenshots [here](https://github.com/atulmy/atulmy.github.io/tree/mast
     </tr>
     <tr>
       <td>
-        <img alt="Mobile" src="https://raw.githubusercontent.com/atulmy/atulmy.github.io/master/images/fullstack-javascript-architecture/mobile/Screenshot%202018-11-26%20at%208.47.31%20PM.png" />
+        <img alt="Mobile" src="https://raw.githubusercontent.com/prodev880110/prodev880110.github.io/master/images/fullstack-javascript-architecture/mobile/Screenshot%202018-11-26%20at%208.47.31%20PM.png" />
       </td>
       <td>
-        <img alt="Mobile" src="https://raw.githubusercontent.com/atulmy/atulmy.github.io/master/images/fullstack-javascript-architecture/mobile/Screenshot%202018-11-26%20at%208.48.07%20PM.png" />
+        <img alt="Mobile" src="https://raw.githubusercontent.com/prodev880110/prodev880110.github.io/master/images/fullstack-javascript-architecture/mobile/Screenshot%202018-11-26%20at%208.48.07%20PM.png" />
       </td>
     </tr>
   </tbody>
@@ -268,38 +266,23 @@ View all screenshots [here](https://github.com/atulmy/atulmy.github.io/tree/mast
 
 ## Authors
 
-- Atul Yadav - [GitHub](https://github.com/atulmy) · [Twitter](https://twitter.com/atulmy)
+- prodev880110 - [GitHub](https://github.com/prodev880110) 
 
-## Collaborators
-
-- Hossein Nedaee - [GitHub](https://github.com/hosseinnedaee)
-- [YOUR NAME HERE] - Feel free to contribute to the codebase by resolving any open issues, refactoring, adding new features, writing test cases or any other way to make the project better and helpful to the community. Feel free to fork and send pull requests.
-
-## Resources and Inspirations
-
-- 💁‍♂️ Hand picked collection of packages, tutorials and more for React Native - [GitHub](https://github.com/atulmy/react-native-curated)
-- 🌱 Lightweight (remote procedure call) API pattern - [GitHub](https://github.com/atulmy/wispy)
-- 🛡 A simple validation library for server and client side applications - [GitHub](https://github.com/atulmy/fullstack-validator) &bull; [NPM](https://www.npmjs.com/package/fullstack-validator)
-- 🌐 Universal react application with server side rendering - [GitHub](https://github.com/atulmy/universal-react)
-- 📦 A sample web and mobile application built with Node, Express, React, React Native and Redux - [GitHub](https://github.com/atulmy/crate)
-- Start learning by looking at sample codes on GitHub: [#LearnByExamples](https://github.com/topics/learn-by-examples)
 
 ## Hire me
 
-Looking for a developer to build your next idea or need a developer to work remotely? Get in touch: [atul.12788@gmail.com](mailto:atul.12788@gmail.com)
+Looking for a developer to build your next idea or need a developer to work remotely? Get in touch: [jack.dev880110@gmail.com](mailto:jack.dev880110@gmail.com)
 
 ## Donate
 
 If you liked this project, you can donate to support it ❤️
 
-[![Donate via PayPal](https://raw.githubusercontent.com/atulmy/atulmy.github.io/master/images/mix/paypal-me-smaller.png)](http://paypal.me/atulmy)
 
 Thank you for donating:
 
-- [Oleg Serbin](https://github.com/oserbin)
 
 ## License
 
-Copyright (c) 2018 Atul Yadav http://github.com/atulmy
+Copyright (c) 2018 prodev880110 http://github.com/prodev880110
 
 The MIT License (http://www.opensource.org/licenses/mit-license.php)
